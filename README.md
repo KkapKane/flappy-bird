@@ -1,3 +1,3 @@
-# cafe-game
+# flappy-bird
 
 hello from lisa
