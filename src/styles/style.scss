@@ -1,4 +1,4 @@
-@import 'variables.scss', 'main.scss';
+@import 'variables.scss', 'menu.scss';
 
 * {
     margin: 0;
@@ -16,6 +16,7 @@ body {
 }
 
 #content {
+    position: relative;
     border: 3px solid black;
     width: 800px;
     height: 600px;
@@ -29,4 +30,12 @@ button {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+#Bird {
+    position: absolute;
+    background-color: lightblue;
+    top: 0%;
+    height: 50px;
+    width: 50px;
 }
