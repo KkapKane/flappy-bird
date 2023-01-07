@@ -1,9 +1,10 @@
+import Main from './components/Main';
+import './styles/style.scss';
 
-
- function App() {
+ export default function App() {
   return (
-    <div>
-      Hello
+    <div id="content">
+      <Main />
     </div>
   )
 }
